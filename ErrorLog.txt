@@ -1,0 +1,18 @@
+Entry 12: Invalid rank range... Entry skipped...
+(Utility.java)
+
+Entry 63: Invalid rank range... Entry skipped...
+(Utility.java)
+
+Entry 90: Invalid rank range... Entry skipped...
+(Utility.java)
+
+Entry 126: Invalid rank type... Entry skipped...
+java.lang.NumberFormatException: For input string: "ERROR"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:580)
+	at java.lang.Integer.parseInt(Integer.java:615)
+	at Utility.readFile(Utility.java:172)
+	at TeamBuilder.<init>(TeamBuilder.java:13)
+	at Driver.main(Driver.java:5)
+
